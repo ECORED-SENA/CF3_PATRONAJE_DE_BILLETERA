@@ -252,7 +252,7 @@
 
                 li.d-flex.align-items-start.mb-2
                   span.vineta-letra d
-                  p.mb-0 dUna ambas líneas con una diagonal en la capa verde.
+                  p.mb-0 Una ambas líneas con una diagonal en la capa verde.
 
                 li.d-flex.align-items-start.mb-2
                   span.vineta-letra e
@@ -449,7 +449,7 @@
 
     separador
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Construcción del patrón
+      h2 2.2 Despiece moldes
 
     .row.justify-content-center.mb-5.mt-4
       .col-lg-12(data-aos="fade-down")

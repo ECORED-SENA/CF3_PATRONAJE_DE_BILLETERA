@@ -17,39 +17,39 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Patronaje digital de billeteras: construcción, despiece y maqueta',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los conocimientos del aprendiz en la elaboración de patrones digitales de billeteras mediante el uso del <em>software</em> Rhinoceros, aplicando técnicas de trazado, despiece, referenciado e impresión.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el propósito principal del componente formativo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Diseñar bolsos de cuero con herramientas manuales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Elaborar patrones digitales de billeteras con criterios técnicos y estéticos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Analizar tendencias de moda en marroquinería.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Crear renders digitales de billeteras.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +59,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué acción se debe realizar primero al iniciar el trazado en Rhinoceros?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Guardar el archivo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Seleccionar la capa correspondiente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Dibujar un círculo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cambiar el tipo de línea.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Cuál es el tamaño base del rectángulo para el patrón del tarjetero?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '90 mm x 80 mm.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '70 mm x 70 mm.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '100 mm x 70 mm.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '120 mm x 60 mm.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +121,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué herramienta se utiliza para separar polilíneas en segmentos individuales?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Recortar.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Descomponer.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Unir.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Escalar.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +151,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál es la función del aumento de 2 mm en los contornos?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Facilitar el refilado y ajuste final de las piezas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Mejorar la estética del patrón.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aumentar la durabilidad del producto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Permitir la impresión a mayor escala.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +182,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué información debe incluirse en el referenciado de moldes?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Nombre del aprendiz y fecha.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Nombre del molde, material, cantidad y dimensiones.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Logo del <em>software</em> y versión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Color y tipo de costura.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +213,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál es el formato predeterminado para guardar archivos en Rhinoceros?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '.pdf',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '.dwg',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '.3dm',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '.stl',
               esCorrecta: false,
             },
           ],
@@ -243,28 +244,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué comando permite reflejar elementos para asegurar simetría en los patrones?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Unir.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Desfasar.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Reflejar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Cortar.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +275,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es la medida del ribete usado en los cuerpos del tarjetero?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '80 mm x 18 mm.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '85 mm x 16 mm.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '100 mm x 20 mm.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '90 mm x 15 mm.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +305,29 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué función tiene la maqueta en el proceso de patronaje?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Decorar el producto final.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Verificar proporciones y funcionalidad antes del corte definitivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir costos de materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evaluar el diseño de forma teórica.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +337,19 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'El espaldar de la billetera debe ser más pequeño que el cuerpo principal.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Falso',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Verdadero.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,19 +358,19 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            'El patrón del centro de la billetera funciona como eje de simetría y punto de doblez.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -358,19 +379,19 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'El patrón de refilado elimina el aumento de 2 mm del contorno.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Falso',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
+              texto: 'Verdadero.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -379,19 +400,19 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            'En la impresión, la escala recomendada es de 1:2 para mejor visualización.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Falso',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Verdadero.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +420,18 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El patrón de forro del espaldar incluye el aumento de 10 mm.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Falso',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Verdadero.',
               esCorrecta: false,
             },
           ],

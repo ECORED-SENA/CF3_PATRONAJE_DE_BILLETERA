@@ -297,7 +297,9 @@
     .row.bg-10
       .col-12
         .p-5
-          .titulo-tres.mt-4.text-white: h3 Despiece moldes  
+          separador
+          #t_1_3.titulo-segundo.color-acento-contenido
+            h2 1.3 Despiece moldes 
 
           p.mt-4 Para realizar el proceso de despiece, vamos a obtener los moldes correspondientes al material principal, los forros, las almas y el refilado.  
 
