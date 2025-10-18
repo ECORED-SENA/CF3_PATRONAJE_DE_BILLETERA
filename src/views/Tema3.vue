@@ -1006,7 +1006,7 @@
     .row.mt-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/QCTS9rfE_Uo?si=sIgI_2Zok3-9nNY7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/aWEfiiUqu8Y?si=JCPHbpziQHtdiAsW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
