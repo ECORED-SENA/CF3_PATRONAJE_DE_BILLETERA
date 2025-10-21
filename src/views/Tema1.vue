@@ -5,14 +5,14 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Elaboración patrones para tarjetero
+      h1 Elaboración de patrones para tarjetero
 
     .row.justify-content-center.mb-5
       .col-lg-12(data-aos="fade-down")
         .row.d-flex.align-items-center.bg-2.gx-3
           .col-lg.d-flex
             .p-5.w-100.align-items-center
-              p.text-white Para iniciar la creación de patrones, seleccione la capa deseada con un clic izquierdo sobre ella. En este caso, haga clic sobre la capa azul. Cuando la capa esté activa, aparecerá una marca negra (check) junto a su nombre, lo que indica que las operaciones nuevas se realizarán dentro de esa capa específica.
+              p.text-white Para iniciar la creación de patrones, seleccione la capa deseada con un clic izquierdo sobre ella. En este caso, haga clic sobre la capa azul. Cuando la capa esté activa, aparecerá una marca negra (#[i check]) junto a su nombre, lo que indica que las operaciones nuevas se realizarán dentro de esa capa específica.
           .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/img1.png', alt='', class="w-100 h-100 object-fit-cover" )
@@ -35,7 +35,7 @@
               ol.lista-ol--cuadro
                 li.d-flex.align-items-start.mb-2
                   span.vineta-letra a
-                  p.mb-0 Diríjase al menú Archivo y seleccione Guardar como.
+                  p.mb-0 Diríjase al menú archivo y seleccione guardar como.
 
                 li.d-flex.align-items-start.mb-2
                   span.vineta-letra b
@@ -51,7 +51,7 @@
 
                 li.d-flex.align-items-start.mb-2
                   span.vineta-letra e
-                  p.mb-0 Haga clic en Guardar para finalizar el proceso.
+                  p.mb-0 Haga clic en guardar para finalizar el proceso.
 
 
     separador
@@ -68,7 +68,7 @@
               ul.lista-ul--color.mt-2
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0  Active el comando Rectángulo desde la barra de herramientas, el menú o escribiéndolo en la línea de comandos.
+                  p.mb-0  Active el comando rectángulo desde la barra de herramientas, el menú o escribiéndolo en la línea de comandos.
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
@@ -80,7 +80,7 @@
                 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Escriba la medida 100 mm y presione Enter para establecer esa dimensión.
+                  p.mb-0 Escriba la medida 100 mm y presione enter para establecer esa dimensión.
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
@@ -88,7 +88,7 @@
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 Introduzca la medida 70 mm y presione Enter para completar el rectángulo.
+                  p.mb-0 Introduzca la medida 70 mm y presione enter para completar el rectángulo.
 
         p.mt-3 Este procedimiento crea un rectángulo cerrado de 100 mm de ancho por 70 mm de alto, con precisión.
 

@@ -122,7 +122,7 @@
                   p.mb-0 Para evitar exceso de material, se recomienda el uso de cajas, que son cortes diagonales aplicados en áreas de doblez, muy comunes en tarjeteros y billeteras.
 
 
-        p.mt-3 Para complementar el diseño del tarjetero y garantizar un acabado técnico adecuado, se realizan ajustes adicionales que incluyen el trazado de cajas o cortes diagonales, los cuales permiten reducir exceso de material en las zonas de doblez y facilitan el proceso de embone.
+        p.mt-3 Para complementar el diseño del tarjetero y garantizar un acabado técnico adecuado, se realizan ajustes adicionales que incluyen el trazado de cajas o cortes diagonales, los cuales permiten reducir el exceso de material en las zonas de doblez y facilitan el proceso de embone.
 
       .col-lg-4.d-none.d-lg-block
         figure
@@ -412,7 +412,7 @@
               ul.lista-ul--color.mt-2
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0  Dibuje los contornos finales de cada parte utilizando Polilíneas.
+                  p.mb-0  Dibuje los contornos finales de cada parte utilizando polilíneas.
 
                 li.d-flex.align-items-start
                   span.icono-img

@@ -16,12 +16,12 @@
               figure
                 img(src='@/assets/curso/intro/img1.png', alt='', style="width: 295px").m-auto
             .col-lg-9
-              p.mb-4 El componente Desarrollo de patrones digitales para billetera tiene como propósito acercar al aprendiz a la construcción de moldes mediante herramientas digitales aplicadas a la marroquinería. Este proceso integra tanto los fundamentos técnicos como los criterios estéticos, garantizando que los productos diseñados cumplan con estándares de precisión y funcionalidad. De esta manera, se fortalece la capacidad de transformar una idea en un patrón que sirva de base para la producción.
+              p.mb-4 El componente desarrollo de patrones digitales para billetera tiene como propósito acercar al aprendiz a la construcción de moldes mediante herramientas digitales aplicadas a la marroquinería. Este proceso integra tanto los fundamentos técnicos como los criterios estéticos, garantizando que los productos diseñados cumplan con estándares de precisión y funcionalidad. De esta manera, se fortalece la capacidad de transformar una idea en un patrón que sirva de base para la producción.
 
               .row.d-flex.align-items-stretch.bg-2(data-aos="fade-down")
                 .col-lg.d-flex
                   .p-4.w-100.d-flex.align-items-strech.text-white
-                    p.mb-0 Además, el componente promueve el aprendizaje en la interpretación de especificaciones técnicas y su adaptación a representaciones gráficas y físicas. La incorporación de software especializado facilita la creación de moldes, su despiece, referenciado e impresión, lo cual asegura uniformidad en las piezas y optimiza el tiempo de trabajo. Así, el aprendiz adquiere competencias que responden a las exigencias actuales de la industria de la moda y la manufactura de accesorios.
+                    p.mb-0 Además, el componente promueve el aprendizaje en la interpretación de especificaciones técnicas y su adaptación a representaciones gráficas y físicas. La incorporación de #[i software] especializado facilita la creación de moldes, su despiece, referenciado e impresión, lo cual asegura uniformidad en las piezas y optimiza el tiempo de trabajo. Así, el aprendiz adquiere competencias que responden a las exigencias actuales de la industria de la moda y la manufactura de accesorios.
 
                 .col-lg-6.d-none.d-lg-block
                   figure.m-0.p-0.w-100.h-100(data-aos="zoom-in")

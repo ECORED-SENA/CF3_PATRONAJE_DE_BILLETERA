@@ -36,7 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Elaboración patrones para tarjetero',
+        titulo: 'Elaboración de patrones para tarjetero',
         desarrolloContenidos: true,
         subMenu: [
           {

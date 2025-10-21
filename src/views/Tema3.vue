@@ -448,9 +448,9 @@
               img(src='@/assets/curso/tema3/img36.png', alt='', style="width: 164px").m-auto
           .col-lg-9
             .row.bg-5.r8
-              p Esta parte se compone de dos piezas:
 
-              ul.lista-ul--color
+
+              ul.lista-ul--color.mt-4
                 li.d-flex.align-items-start
                   span.icono-img
                   p.mb-0  Una en forro, basada en el rectángulo dibujado.
