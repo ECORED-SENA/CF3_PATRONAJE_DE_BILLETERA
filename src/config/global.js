@@ -159,7 +159,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/PATRONAJE_BILLETERA_CF03_DU.pdf',
+        download: 'downloads/52450487_CF03_DU.pdf',
       },
       {
         icono: 'fas fa-download',

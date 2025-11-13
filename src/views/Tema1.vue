@@ -7,15 +7,16 @@
         span 1
       h1 Elaboración de patrones para tarjetero
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .col-lg-12(data-aos="fade-down")
         .row.d-flex.align-items-center.bg-2.gx-3
           .col-lg.d-flex
             .p-5.w-100.align-items-center
-              p.text-white Para iniciar la creación de patrones, seleccione la capa deseada con un clic izquierdo sobre ella. En este caso, haga clic sobre la capa azul. Cuando la capa esté activa, aparecerá una marca negra (#[i check]) junto a su nombre, lo que indica que las operaciones nuevas se realizarán dentro de esa capa específica.
+              p.text-white.mb-0 El proceso de elaboración de patrones en Rhinoceros constituye una etapa fundamental en el diseño digital de productos de marroquinería, como el tarjetero. Esta fase permite definir con precisión las formas, medidas y detalles constructivos de cada pieza antes de su producción física. El uso de capas facilita la organización del proyecto, garantizando un flujo de trabajo ordenado y eficiente. Además, mantener una rutina de guardado frecuente evita la pérdida de avances y asegura la integridad de los archivos de diseño durante todo el proceso.
           .col-lg-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/img1.png', alt='', class="w-100 h-100 object-fit-cover" )
+    p.mb-0 Para iniciar la creación de patrones, seleccione la capa deseada con un clic izquierdo sobre ella. En este caso, haga clic sobre la capa azul. Cuando la capa esté activa, aparecerá una marca negra (#[i check]) junto a su nombre, lo que indica que las operaciones nuevas se realizarán dentro de esa capa específica.
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
@@ -504,7 +505,7 @@
 
                 li.d-flex.align-items-start.p-1
                   span.icono-img
-                  p.mb-0 También puede repetir el último comando con clic derecho del mouse.
+                  p.mb-0 También puede repetir el último comando con clic derecho del #[i mouse].
 
 
       .col-lg-4.d-none.d-lg-block
@@ -831,7 +832,7 @@
               ul.lista-ul--color.mt-4
                 li.d-flex.align-items-start
                   span.icono-img
-                  p.mb-0  Use el mouse para mover este recuadro sobre los patrones que desea imprimir.
+                  p.mb-0  Use el #[i mouse] para mover este recuadro sobre los patrones que desea imprimir.
 
                 li.d-flex.align-items-start
                   span.icono-img
